@@ -1,0 +1,27 @@
+
+.titulo-nosotros{
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+@include tablet {
+    .iconos-nosotros{
+        @include grid(3, 2rem);
+    }
+}
+
+
+.icono {  
+    img {       
+        height: 10rem;
+        
+    }
+    h3{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    p{
+        text-align: justify;
+    }
+}
